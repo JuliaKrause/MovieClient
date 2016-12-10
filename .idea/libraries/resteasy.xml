@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="resteasy">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/resteasy" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/resteasy" recursive="false" />
+  </library>
+</component>
