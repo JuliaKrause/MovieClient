@@ -7,7 +7,9 @@ import javax.xml.namespace.NamespaceContext;
 import javax.xml.namespace.QName;
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.InputStreamReader;
 import java.util.List;
 
 
@@ -18,7 +20,21 @@ public class MovieClient {
 
     public static void main ( String [] args ) throws Exception {
 
-        //TODO: soll ein Kommandozeilenwerkzeug sein, d.h. irgendwie aus Kommandozeile den XML-Datei-Namen einlesen
+        //Versuch, über Shell xmlFileNamen einzugeben
+        /*System.out.println("Eingabe: ");
+
+        if(args.length > 0) {
+            for(String arg : args) {
+                System.out.println(arg);
+            }
+        } else {
+            System.out.println("No args to print");
+        }*/
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Enter String");
+        final String XML_FILE = br.readLine();
+
         MovieWebService_Service service = new MovieWebService_Service();
         MovieWebService port = service.getMovieWebServicePort();
 
@@ -26,7 +42,7 @@ public class MovieClient {
         JAXBContext jaxbContext = JAXBContext.newInstance(MovieList.class);
 
         Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
-        Source source = new StreamSource(new File("movies.xml"));
+        Source source = new StreamSource(new File(XML_FILE));
         JAXBElement<MovieList> jaxbElement = unmarshaller.unmarshal(source, MovieList.class);
         MovieList movieListWrapper = jaxbElement.getValue();
         List<Movie> movieList = movieListWrapper.getMovie();
@@ -42,6 +58,7 @@ public class MovieClient {
         //(ich nehme an, dann wäre das in der WSDL auch so angegeben und würde von hier aus gehen)
         //oder halt am Client einen Converter machen, der für alle Schauspieler den Typ von BirthDate
         //von GregorianCalender in Date umwandelt
+
         port.importMovies(movieListWrapper);
 
         //hier hab ich mal was probiert, weil irgendwozu ja die ImportMovies Klasse gut sein muss,

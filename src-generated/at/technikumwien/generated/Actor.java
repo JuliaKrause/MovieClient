@@ -123,7 +123,7 @@ public class Actor {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link Date }
      *     
      */
     public Date getBirthdate() {
@@ -135,7 +135,7 @@ public class Actor {
      * 
      * @param value
      *     allowed object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link Date }
      *     
      */
     public void setBirthdate(Date value) {
