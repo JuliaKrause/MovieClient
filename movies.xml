@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <movies>
 	<!-- full genre list: ACTION, ANIMATION, COMEDY, DRAMA, HORROR, SCIENCE_FICTION, THRILLER, WESTERN -->
-	<movie title="Another try" description="When 'The Dude' Lebowski is mistaken for a millionaire Lebowski, two thugs urinate on his rug to coerce him into paying a debt he knows nothing about. While attempting to gain recompense for the ruined rug from his wealthy counterpart, he accepts a one-time job with high pay-off. ..." genre="COMEDY" length="117" releaseyear="1998">
+	<movie title="Jan6 Film1" description="When 'The Dude' Lebowski is mistaken for a millionaire Lebowski, two thugs urinate on his rug to coerce him into paying a debt he knows nothing about. While attempting to gain recompense for the ruined rug from his wealthy counterpart, he accepts a one-time job with high pay-off. ..." genre="COMEDY" length="117" releaseyear="1998">
 		<studio name="Working Title Films" countrycode="UK" postcode="W1U 4AN" />
 		<actors>
 			<!-- full sex list: FEMALE, MALE -->
@@ -10,7 +10,7 @@
 			<actor firstname="Julianne" lastname="Moore" sex="FEMALE" birthdate="1960-12-03" /> 
 		</actors>
 	</movie>
-	<movie title="... and another try" description="When 'The Dude' Lebowski is mistaken for a millionaire Lebowski, two thugs urinate on his rug to coerce him into paying a debt he knows nothing about. While attempting to gain recompense for the ruined rug from his wealthy counterpart, he accepts a one-time job with high pay-off. ..." genre="COMEDY" length="117" releaseyear="1998">
+	<movie title="Jan6 Film2" description="When 'The Dude' Lebowski is mistaken for a millionaire Lebowski, two thugs urinate on his rug to coerce him into paying a debt he knows nothing about. While attempting to gain recompense for the ruined rug from his wealthy counterpart, he accepts a one-time job with high pay-off. ..." genre="COMEDY" length="117" releaseyear="1998">
 		<studio name="Working Title Films" countrycode="UK" postcode="W1U 4AN" />
 		<actors>
 			<!-- full sex list: FEMALE, MALE -->
