@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67bbcae9-7e94-4b98-9ba0-d12e666963ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/at/technikumwien/MoviesAuthenticator.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/Actor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/Actor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/GetAllMovies.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/GetAllMovies.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/GetAllMoviesResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/GetAllMoviesResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/ImportMovies.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/ImportMovies.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/ImportMoviesResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/ImportMoviesResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/Movie$Actors.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/Movie.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/Movie.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/MovieList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/MovieList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/MovieWebService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/MovieWebService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/MovieWebService_Service.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/MovieWebService_Service.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/ObjectFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/SearchMoviesByTitle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/SearchMoviesByTitle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/SearchMoviesByTitleResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/SearchMoviesByTitleResponse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/Studio.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/Studio.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/package-info.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src-generated/at/technikumwien/generated/package-info.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MovieClient/at/technikumwien/MovieClient.class" afterPath="$PROJECT_DIR$/out/production/MovieClient/at/technikumwien/MovieClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MovieClient/at/technikumwien/generated/Studio.class" afterPath="$PROJECT_DIR$/out/production/MovieClient/at/technikumwien/generated/Studio.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movies.xml" afterPath="$PROJECT_DIR$/movies.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate-client-stub.bat" afterPath="$PROJECT_DIR$/generate-client-stub.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/at/technikumwien/MovieClient.java" afterPath="$PROJECT_DIR$/src/at/technikumwien/MovieClient.java" />
     </list>
     <ignored path="MovieClient.iws" />
@@ -27,21 +57,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MovieClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MovieClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/at/technikumwien/MovieClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MovieWebService_Service.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MovieWebService_Service.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src-generated/at/technikumwien/generated/MovieWebService_Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+            <state relative-caret-position="17">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding>
                 <element signature="e#1364#1365#0" expanded="true" />
                 <element signature="e#1429#1430#0" expanded="true" />
@@ -50,14 +80,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Actor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src-generated/at/technikumwien/generated/Actor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2091">
+              <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MoviesAuthenticator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at/technikumwien/MoviesAuthenticator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,8 +146,8 @@
         <option value="$PROJECT_DIR$/src/at/technikumwien/MyDatatypeConverter.java" />
         <option value="$PROJECT_DIR$/src-generated/at/technikumwien/generated/Movie.java" />
         <option value="$PROJECT_DIR$/src-generated/at/technikumwien/generated/ObjectFactory.java" />
-        <option value="$PROJECT_DIR$/src-generated/at/technikumwien/generated/Actor.java" />
         <option value="$PROJECT_DIR$/movies.xml" />
+        <option value="$PROJECT_DIR$/src-generated/at/technikumwien/generated/Actor.java" />
         <option value="$PROJECT_DIR$/src/at/technikumwien/MoviesAuthenticator.java" />
         <option value="$PROJECT_DIR$/src/at/technikumwien/MovieClient.java" />
       </list>
@@ -150,7 +189,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,8 +252,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,6 +262,8 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.MovieClient">
     <configuration default="false" name="MovieClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -688,12 +729,13 @@
       <workItem from="1481818790025" duration="1064000" />
       <workItem from="1481881470941" duration="787000" />
       <workItem from="1483033591771" duration="621000" />
-      <workItem from="1483722081240" duration="2749000" />
+      <workItem from="1483722081240" duration="6082000" />
+      <workItem from="1483739098387" duration="734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21854000" />
+    <option name="totallyTimeSpent" value="25921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -707,7 +749,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32724252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32724252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -993,7 +1035,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,7 +1076,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,13 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src-generated/at/technikumwien/generated/Actor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movies.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1096,33 +1137,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src-generated/at/technikumwien/generated/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/at/technikumwien/MoviesAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-generated/at/technikumwien/generated/MovieWebService_Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/at/technikumwien/MovieClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src-generated/at/technikumwien/generated/MovieWebService_Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-          <folding>
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,6 +1231,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

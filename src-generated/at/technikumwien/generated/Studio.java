@@ -21,6 +21,7 @@ import javax.xml.bind.annotation.XmlType;
  *       &lt;attribute name="name" type="{http://www.w3.org/2001/XMLSchema}string" />
  *       &lt;attribute name="countrycode" type="{http://www.w3.org/2001/XMLSchema}string" />
  *       &lt;attribute name="postcode" type="{http://www.w3.org/2001/XMLSchema}string" />
+ *       &lt;attribute name="studioId" type="{http://www.w3.org/2001/XMLSchema}long" />
  *     &lt;/restriction>
  *   &lt;/complexContent>
  * &lt;/complexType>
@@ -38,6 +39,8 @@ public class Studio {
     protected String countrycode;
     @XmlAttribute(name = "postcode")
     protected String postcode;
+    @XmlAttribute(name = "studioId")
+    protected Long studioId;
 
     /**
      * Ruft den Wert der name-Eigenschaft ab.
@@ -109,6 +112,30 @@ public class Studio {
      */
     public void setPostcode(String value) {
         this.postcode = value;
+    }
+
+    /**
+     * Ruft den Wert der studioId-Eigenschaft ab.
+     * 
+     * @return
+     *     possible object is
+     *     {@link Long }
+     *     
+     */
+    public Long getStudioId() {
+        return studioId;
+    }
+
+    /**
+     * Legt den Wert der studioId-Eigenschaft fest.
+     * 
+     * @param value
+     *     allowed object is
+     *     {@link Long }
+     *     
+     */
+    public void setStudioId(Long value) {
+        this.studioId = value;
     }
 
 }

@@ -20,7 +20,7 @@ public class MovieClient {
 
     public static void main ( String [] args ) throws Exception {
 
-        MoviesAuthenticator.setAsDefault("BSWrite", "123");
+        MoviesAuthenticator.setAsDefault("writer", "123");
 
         System.out.println("Filename is: ");
 

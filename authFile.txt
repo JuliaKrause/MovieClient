@@ -1,0 +1,1 @@
+http://writer:123@localhost:8080/MovieServiceWebApp_war_exploded/MovieWebService?wsdl
